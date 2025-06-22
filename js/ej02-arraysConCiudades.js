@@ -31,6 +31,7 @@ if (ciudades.length > 0) {
   document.writeln(`</ul>`);
 }
 
+if(ciudades.length > 0){
 ciudades.push("Paris");
 document.writeln("<ul>");
 document.writeln(
@@ -51,5 +52,8 @@ for (i = 0; i < ciudades.length; i++) {
   document.writeln(`<li>Elemento: ${ciudades[i]}</li>`);
 }
 document.writeln(`</ul>`);
+}
+
+
 
 
