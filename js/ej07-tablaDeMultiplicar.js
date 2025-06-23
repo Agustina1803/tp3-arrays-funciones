@@ -1,6 +1,6 @@
 function tablaMultiplicar(numero) {
   document.writeln(
-    `<table class='table table-bordered text-center'><thead><tr><th>Tabla de muultiplicar del ${numero}</th></tr></thead><tbody>`
+    `<table class='table table-bordered text-center'><thead><tr><th>Tabla de multiplicar del ${numero}</th></tr></thead><tbody>`
   );
   for (let i = 1; i <= 10; i++) {
     let multiplicacion = i * numero;
@@ -16,9 +16,3 @@ const numero = parseInt(
 
 tablaMultiplicar(numero);
 
-/*document.writeln(`<table class='table table-bordered text-center'><thead><tr><th>Suma🎲🎲</th><th>Apariciones</th></tr></thead><tbody>`)
-for (let i = 0; i < apariciones.length; i++) {
-let suma = i + 2; 
-  document.writeln(`<tr><td>${suma}</td><td>${apariciones[i]}</td></tr>`);
-}
-document.writeln(`</tbody></table>`); */
