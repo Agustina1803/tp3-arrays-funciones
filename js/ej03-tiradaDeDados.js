@@ -1,4 +1,4 @@
-let apariciones = [0,0,0,0,0,0,0,0,0,0,0];
+const apariciones = [0,0,0,0,0,0,0,0,0,0,0];
 
 
 for(let i=0; i< 50; i++){
@@ -8,6 +8,7 @@ let suma = dado1 + dado2;
 let indice = suma - 2; 
 apariciones[indice]++;
 }
+
 
 document.writeln(`<table class='table table-bordered text-center'><thead><tr><th>Suma🎲🎲</th><th>Apariciones</th></tr></thead><tbody>`)
 for (let i = 0; i < apariciones.length; i++) {
